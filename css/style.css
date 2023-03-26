@@ -26,16 +26,27 @@ body {
     color: #000000;
 }
 
-.navigation {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
+.menu-logo-bottom {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 
-.link-nav:hover {
+.navigation {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.link-nav:hover,
+.link-nav:focus {
     color: #2196F3;
 }
 
@@ -45,6 +56,28 @@ a {
 
 .pointer {
     cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #F5F4FA;
+    border: none;
+    display: inline-block;
+    width: 117px;
+    height: 30px;
+
+}
+
+.button-main:hover
+ {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    
 }
 
 .footer {
