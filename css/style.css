@@ -78,6 +78,15 @@ body {
     letter-spacing: 0.02em;
 }
 
+.link-nav {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
 .link-nav:hover,
 .link-nav:focus {
     color: #2196F3;
@@ -112,7 +121,7 @@ body {
     
 }
 
-.heading1{
+.heading1 {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
