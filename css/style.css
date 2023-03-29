@@ -22,7 +22,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 0,8;
     letter-spacing: 0.03em;
     color: #2196F3;
 }
@@ -32,7 +32,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 0,8;
     letter-spacing: 0.03em;
     color: #000000;
 }
@@ -42,7 +42,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 0,8;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
@@ -51,16 +51,16 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 0,5;
     letter-spacing: 0.02em;
     color: #757575;
 }
 
 .contact-nav {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 0,5;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
@@ -74,7 +74,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 0,8;
     letter-spacing: 0.02em;
 }
 
@@ -82,7 +82,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 0,8;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -101,7 +101,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 0,6;
     text-align: center;
     text-decoration: none;
     letter-spacing: 0.03em;
@@ -114,18 +114,39 @@ body {
 
 }
 
+.pointer2 {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0,6;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #F5F4FA;
+    border: none;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+}
+
 .button-main:hover
  {
     color: #FFFFFF;
     background-color: #2196F3;
-    
+}
+
+
+.button-main2:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
 }
 
 .heading1 {
     font-style: normal;
-    font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 0,7;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -134,9 +155,8 @@ body {
 
 .heading2 {
     font-style: normal;
-    font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 0,8;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -144,20 +164,22 @@ body {
 
 .heading3 {
     font-style: normal;
-    font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 0,5;
     letter-spacing: 0.06em;
     color: #212121;
 }
 
 .text {
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 0,5;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+.background {
+    background: #2F303A;
 }
 
 .footer {
