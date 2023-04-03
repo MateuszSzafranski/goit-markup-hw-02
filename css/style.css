@@ -177,7 +177,7 @@ body {
 
 .heading3 {
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.06em;
 }
@@ -188,6 +188,16 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: var(--brand-color-black);
+}
+
+.heading5 {
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
     color: var(--brand-color-black);
 }
 
